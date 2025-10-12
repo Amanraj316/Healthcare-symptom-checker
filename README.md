@@ -4,10 +4,6 @@ This is a web application that takes user-inputted health symptoms and uses an A
 
 **Disclaimer:** This tool is for **educational purposes only** and is not a substitute for professional medical advice, diagnosis, or treatment.
 
-## Demo Video
-
-[Link to your project demo video]
-
 ---
 
 ## Tech Stack
