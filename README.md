@@ -24,7 +24,7 @@ This is a web application that takes user-inputted health symptoms and uses an A
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/YourUsername/YourRepositoryName.git](https://github.com/YourUsername/YourRepositoryName.git)
+    git clone [https://github.com/Amanraj316/Healthcare-symptom-checker](https://github.com/YourUsername/YourRepositoryName.git)
     cd healthcare-symptom-checker
     ```
 
