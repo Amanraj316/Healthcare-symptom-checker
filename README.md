@@ -1,32 +1,46 @@
 # Healthcare Symptom Checker 🩺
 
-This project is a web application that takes user-inputted health symptoms and uses an AI Language Model to suggest probable conditions and recommend next steps. This tool is for educational purposes only.
+This is a web application that takes user-inputted health symptoms and uses an AI Language Model (LLM) to suggest probable conditions and recommend next steps. All queries are saved to a MongoDB database.
 
-## How to Run This Project
-
-### 1. Backend Setup
-
-- Navigate to the `backend` folder: `cd backend`
-- Install dependencies: `npm install`
-- Create a `.env` file in the `backend` folder and add your API key:
-  `COHERE_API_KEY=YourApiKeyGoesHere`
-- Start the server: `node server.js`
-- The server will be running on `http://localhost:5001`.
-
-### 2. Frontend Setup
-
-- Navigate to the `frontend` folder: `cd frontend`
-- Install dependencies: `npm install`
-- Start the client: `npm run dev`
-- The application will open in your browser at `http://localhost:5173` (or a similar address).
-
-## Tech Stack
-
-- **Frontend:** React, Vite
-- **Backend:** Node.js, Express.js
-- **AI:** Cohere API (or specify the one you used)
-- **Database:** None (optional MongoDB integration not implemented)
+**Disclaimer:** This tool is for **educational purposes only** and is not a substitute for professional medical advice, diagnosis, or treatment.
 
 ## Demo Video
 
-[Link to your demo video will go here]
+[Link to your project demo video]
+
+---
+
+## Tech Stack
+
+- **Frontend:** React (Vite)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas, Mongoose
+- **AI / LLM:** Cohere API
+
+---
+
+## How to Run
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone [https://github.com/YourUsername/YourRepositoryName.git](https://github.com/YourUsername/YourRepositoryName.git)
+    cd healthcare-symptom-checker
+    ```
+
+2.  **Setup Backend:**
+
+    - Navigate to the backend: `cd backend`
+    - Install dependencies: `npm install`
+    - Create a `.env` file and add your API key and database URI:
+      ```
+      COHERE_API_KEY="Your_Key_Here"
+      MONGODB_URI="Your_MongoDB_URI_Here"
+      ```
+    - Start the server: `node server.js`
+
+3.  **Setup Frontend:**
+    - Open a **new terminal**.
+    - Navigate to the frontend: `cd frontend`
+    - Install dependencies: `npm install`
+    - Start the client: `npm run dev`
