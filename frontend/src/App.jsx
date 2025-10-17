@@ -33,7 +33,7 @@ function App() {
     setIsLoading(true);
     setResult(null);
     try {
-      const response = await fetch('https://healthcare-symptom-checker-pf8n.onrender.com', {
+      const response = await fetch('/api/check-symptoms', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ symptoms }),
